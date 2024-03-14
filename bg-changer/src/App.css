@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100vw; /* Set width to viewport width */
+  height: 100vh; /* Set height to viewport height */
+  z-index: -1; /* Set a low z-index to ensure it's behind other elements */
+}
+
+.bar-position {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.bar-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1); /* Shadow equivalent */
+  background-color: white;
+  padding: 3px;
+  border-radius: 1.5rem; /* Rounded corners equivalent */
+}
+
+.buttons {
+  outline: none; /* Removes default button outline */
+  padding: 4px 1rem; /* Replaces px-4 py-1 with more readable syntax */
+  border-radius: 50%; /* rounded-full translates to a full circle */
+  color: white;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1); /* Shadow equivalent */
+}
+
